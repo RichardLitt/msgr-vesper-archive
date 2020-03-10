@@ -1,0 +1,233 @@
+2020-03-08 09:29:49,499 INFO     Job started for command "import" with arguments:
+2020-03-08 09:29:49,500 INFO         {
+2020-03-08 09:29:49,502 INFO             "importer": {
+2020-03-08 09:29:49,502 INFO                 "name": "Archive Data Importer",
+2020-03-08 09:29:49,503 INFO                 "arguments": {
+2020-03-08 09:29:49,503 INFO                     "archive_data": {
+2020-03-08 09:29:49,503 INFO                         "stations": [
+2020-03-08 09:29:49,503 INFO                             {
+2020-03-08 09:29:49,503 INFO                                 "name": "NBNC",
+2020-03-08 09:29:49,503 INFO                                 "description": "Recording in central Vermont.\n",
+2020-03-08 09:29:49,503 INFO                                 "time_zone": "US/Eastern",
+2020-03-08 09:29:49,503 INFO                                 "latitude": 42.473168,
+2020-03-08 09:29:49,503 INFO                                 "longitude": -76.516825,
+2020-03-08 09:29:49,503 INFO                                 "elevation": 170
+2020-03-08 09:29:49,503 INFO                             },
+2020-03-08 09:29:49,503 INFO                             {
+2020-03-08 09:29:49,503 INFO                                 "name": "MSGR",
+2020-03-08 09:29:49,503 INFO                                 "description": "Monsignor Crosby station\n",
+2020-03-08 09:29:49,503 INFO                                 "time_zone": "US/Eastern",
+2020-03-08 09:29:49,503 INFO                                 "latitude": 42.473168,
+2020-03-08 09:29:49,503 INFO                                 "longitude": -76.516825,
+2020-03-08 09:29:49,503 INFO                                 "elevation": 170
+2020-03-08 09:29:49,503 INFO                             }
+2020-03-08 09:29:49,503 INFO                         ],
+2020-03-08 09:29:49,503 INFO                         "device_models": [
+2020-03-08 09:29:49,503 INFO                             {
+2020-03-08 09:29:49,503 INFO                                 "name": "PC Recorder",
+2020-03-08 09:29:49,503 INFO                                 "type": "Audio Recorder",
+2020-03-08 09:29:49,504 INFO                                 "manufacturer": "Various",
+2020-03-08 09:29:49,504 INFO                                 "model": "PC",
+2020-03-08 09:29:49,504 INFO                                 "description": "Personal computer as an audio recorder.",
+2020-03-08 09:29:49,504 INFO                                 "num_inputs": 2
+2020-03-08 09:29:49,504 INFO                             },
+2020-03-08 09:29:49,504 INFO                             {
+2020-03-08 09:29:49,504 INFO                                 "name": "21c Microphone",
+2020-03-08 09:29:49,504 INFO                                 "type": "Microphone",
+2020-03-08 09:29:49,504 INFO                                 "manufacturer": "Old Bird",
+2020-03-08 09:29:49,504 INFO                                 "model": "21c",
+2020-03-08 09:29:49,504 INFO                                 "description": "",
+2020-03-08 09:29:49,504 INFO                                 "num_outputs": 1
+2020-03-08 09:29:49,504 INFO                             }
+2020-03-08 09:29:49,504 INFO                         ],
+2020-03-08 09:29:49,504 INFO                         "devices": [
+2020-03-08 09:29:49,504 INFO                             {
+2020-03-08 09:29:49,504 INFO                                 "name": "PC",
+2020-03-08 09:29:49,504 INFO                                 "model": "PC Recorder",
+2020-03-08 09:29:49,504 INFO                                 "serial_number": 0,
+2020-03-08 09:29:49,504 INFO                                 "description": "Recorder used at the station of this archive."
+2020-03-08 09:29:49,504 INFO                             },
+2020-03-08 09:29:49,504 INFO                             {
+2020-03-08 09:29:49,504 INFO                                 "name": "21c",
+2020-03-08 09:29:49,504 INFO                                 "model": "21c Microphone",
+2020-03-08 09:29:49,504 INFO                                 "serial_number": 0,
+2020-03-08 09:29:49,504 INFO                                 "description": "Microphone used at the station of this archive."
+2020-03-08 09:29:49,504 INFO                             }
+2020-03-08 09:29:49,504 INFO                         ],
+2020-03-08 09:29:49,504 INFO                         "station_devices": [
+2020-03-08 09:29:49,504 INFO                             {
+2020-03-08 09:29:49,504 INFO                                 "station": "NBNC",
+2020-03-08 09:29:49,504 INFO                                 "start_time": "2019-01-01",
+2020-03-08 09:29:49,504 INFO                                 "end_time": "2020-01-01",
+2020-03-08 09:29:49,504 INFO                                 "devices": [
+2020-03-08 09:29:49,505 INFO                                     "PC",
+2020-03-08 09:29:49,505 INFO                                     "21c"
+2020-03-08 09:29:49,505 INFO                                 ],
+2020-03-08 09:29:49,505 INFO                                 "connections": [
+2020-03-08 09:29:49,505 INFO                                     {
+2020-03-08 09:29:49,505 INFO                                         "output": "21c Output",
+2020-03-08 09:29:49,505 INFO                                         "input": "PC Input 0"
+2020-03-08 09:29:49,505 INFO                                     }
+2020-03-08 09:29:49,505 INFO                                 ]
+2020-03-08 09:29:49,505 INFO                             }
+2020-03-08 09:29:49,505 INFO                         ],
+2020-03-08 09:29:49,506 INFO                         "detectors": [
+2020-03-08 09:29:49,506 INFO                             {
+2020-03-08 09:29:49,506 INFO                                 "name": "Old Bird Thrush Detector Redux 1.1",
+2020-03-08 09:29:49,506 INFO                                 "description": "Vesper reimplementation of Old Bird Thrush detector."
+2020-03-08 09:29:49,506 INFO                             },
+2020-03-08 09:29:49,506 INFO                             {
+2020-03-08 09:29:49,506 INFO                                 "name": "Old Bird Tseep Detector Redux 1.1",
+2020-03-08 09:29:49,506 INFO                                 "description": "Vesper reimplementation of Old Bird Tseep detector."
+2020-03-08 09:29:49,506 INFO                             }
+2020-03-08 09:29:49,506 INFO                         ],
+2020-03-08 09:29:49,506 INFO                         "classifiers": [
+2020-03-08 09:29:49,506 INFO                             {
+2020-03-08 09:29:49,506 INFO                                 "name": "MPG Ranch NFC Coarse Classifier 3.0",
+2020-03-08 09:29:49,506 INFO                                 "description": "Classifies an unclassified clip as a \"Call\" if it appears to be a nocturnal flight call, or as a \"Noise\" otherwise. Does not classify a clip that has already been classified, whether manually or automatically.\n"
+2020-03-08 09:29:49,506 INFO                             }
+2020-03-08 09:29:49,506 INFO                         ],
+2020-03-08 09:29:49,506 INFO                         "annotation_constraints": [
+2020-03-08 09:29:49,506 INFO                             {
+2020-03-08 09:29:49,506 INFO                                 "name": "Coarse Classification",
+2020-03-08 09:29:49,506 INFO                                 "description": "Coarse classifications only.",
+2020-03-08 09:29:49,506 INFO                                 "type": "Values",
+2020-03-08 09:29:49,506 INFO                                 "values": [
+2020-03-08 09:29:49,506 INFO                                     "Call",
+2020-03-08 09:29:49,506 INFO                                     "Noise",
+2020-03-08 09:29:49,506 INFO                                     "Tone",
+2020-03-08 09:29:49,506 INFO                                     "Other",
+2020-03-08 09:29:49,506 INFO                                     "Unknown"
+2020-03-08 09:29:49,506 INFO                                 ]
+2020-03-08 09:29:49,506 INFO                             },
+2020-03-08 09:29:49,506 INFO                             {
+2020-03-08 09:29:49,506 INFO                                 "name": "Classification",
+2020-03-08 09:29:49,506 INFO                                 "description": "All classifications, including call subclassifications.",
+2020-03-08 09:29:49,506 INFO                                 "type": "Hierarchical Values",
+2020-03-08 09:29:49,506 INFO                                 "extends": "Coarse Classification",
+2020-03-08 09:29:49,506 INFO                                 "values": [
+2020-03-08 09:29:49,506 INFO                                     {
+2020-03-08 09:29:49,506 INFO                                         "Call": [
+2020-03-08 09:29:49,506 INFO                                             "AMCO",
+2020-03-08 09:29:49,506 INFO                                             "AMPI",
+2020-03-08 09:29:49,507 INFO                                             "AMRE",
+2020-03-08 09:29:49,507 INFO                                             "AMRO",
+2020-03-08 09:29:49,507 INFO                                             "ATSP",
+2020-03-08 09:29:49,507 INFO                                             "BAIS",
+2020-03-08 09:29:49,507 INFO                                             "BHGR",
+2020-03-08 09:29:49,507 INFO                                             "CAWA",
+2020-03-08 09:29:49,507 INFO                                             "CCSP_BRSP",
+2020-03-08 09:29:49,507 INFO                                             "CHSP",
+2020-03-08 09:29:49,507 INFO                                             "COYE",
+2020-03-08 09:29:49,507 INFO                                             "DBUP",
+2020-03-08 09:29:49,507 INFO                                             "DEJU",
+2020-03-08 09:29:49,507 INFO                                             "GCKI",
+2020-03-08 09:29:49,507 INFO                                             "GRSP",
+2020-03-08 09:29:49,507 INFO                                             "GRYE",
+2020-03-08 09:29:49,507 INFO                                             "HETH",
+2020-03-08 09:29:49,507 INFO                                             "High",
+2020-03-08 09:29:49,507 INFO                                             "HOLA",
+2020-03-08 09:29:49,507 INFO                                             "LALO",
+2020-03-08 09:29:49,507 INFO                                             "LAZB",
+2020-03-08 09:29:49,507 INFO                                             "LBCU",
+2020-03-08 09:29:49,507 INFO                                             "LISP",
+2020-03-08 09:29:49,507 INFO                                             "Low",
+2020-03-08 09:29:49,507 INFO                                             "MGWA",
+2020-03-08 09:29:49,507 INFO                                             "NOWA",
+2020-03-08 09:29:49,507 INFO                                             "OVEN",
+2020-03-08 09:29:49,507 INFO                                             "Other",
+2020-03-08 09:29:49,507 INFO                                             "PYNU_LBDO",
+2020-03-08 09:29:49,507 INFO                                             "Peep",
+2020-03-08 09:29:49,507 INFO                                             "SAVS",
+2020-03-08 09:29:49,507 INFO                                             "SORA",
+2020-03-08 09:29:49,507 INFO                                             "SOSP",
+2020-03-08 09:29:49,507 INFO                                             "SPSA_SOSA",
+2020-03-08 09:29:49,507 INFO                                             "SWTH",
+2020-03-08 09:29:49,507 INFO                                             "UPSA",
+2020-03-08 09:29:49,507 INFO                                             "Unknown",
+2020-03-08 09:29:49,507 INFO                                             "VEER",
+2020-03-08 09:29:49,507 INFO                                             "VESP",
+2020-03-08 09:29:49,507 INFO                                             "VIRA",
+2020-03-08 09:29:49,507 INFO                                             "WCSP",
+2020-03-08 09:29:49,507 INFO                                             "WEME",
+2020-03-08 09:29:49,507 INFO                                             "WETA",
+2020-03-08 09:29:49,508 INFO                                             "WIWA",
+2020-03-08 09:29:49,508 INFO                                             "WTSP",
+2020-03-08 09:29:49,508 INFO                                             "Weak",
+2020-03-08 09:29:49,508 INFO                                             "YRWA",
+2020-03-08 09:29:49,508 INFO                                             "Zeep"
+2020-03-08 09:29:49,508 INFO                                         ]
+2020-03-08 09:29:49,508 INFO                                     }
+2020-03-08 09:29:49,508 INFO                                 ]
+2020-03-08 09:29:49,508 INFO                             }
+2020-03-08 09:29:49,508 INFO                         ],
+2020-03-08 09:29:49,508 INFO                         "annotations": [
+2020-03-08 09:29:49,508 INFO                             {
+2020-03-08 09:29:49,508 INFO                                 "name": "Detector Score",
+2020-03-08 09:29:49,508 INFO                                 "type": "String"
+2020-03-08 09:29:49,508 INFO                             },
+2020-03-08 09:29:49,508 INFO                             {
+2020-03-08 09:29:49,508 INFO                                 "name": "Classification",
+2020-03-08 09:29:49,508 INFO                                 "type": "String",
+2020-03-08 09:29:49,508 INFO                                 "constraint": "Classification"
+2020-03-08 09:29:49,509 INFO                             }
+2020-03-08 09:29:49,509 INFO                         ]
+2020-03-08 09:29:49,509 INFO                     }
+2020-03-08 09:29:49,509 INFO                 }
+2020-03-08 09:29:49,509 INFO             }
+2020-03-08 09:29:49,509 INFO         }
+2020-03-08 09:29:49,509 INFO     Adding station "NBNC"...
+2020-03-08 09:29:49,517 ERROR    Archive data import failed with an exception. Database has been restored to its state before the import. See below for exception traceback.
+2020-03-08 09:29:49,543 ERROR    Job raised exception. See traceback below.
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: vesper_station.name
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/job_runner.py", line 145, in run_job
+    complete = command.execute(info)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/import_command.py", line 22, in execute
+    return self._importer.execute(context)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/archive_data_importer.py", line 57, in execute
+    self._add_stations()
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/vesper/command/archive_data_importer.py", line 100, in _add_stations
+    time_zone=time_zone)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/query.py", line 413, in create
+    obj.save(force_insert=True, using=self.db)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "//anaconda3/envs/vesper-0.4.7/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: vesper_station.name
+

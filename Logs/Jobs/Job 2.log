@@ -1,0 +1,23 @@
+2020-03-08 09:40:21,493 INFO     Job started for command "import" with arguments:
+2020-03-08 09:40:21,493 INFO         {
+2020-03-08 09:40:21,494 INFO             "importer": {
+2020-03-08 09:40:21,494 INFO                 "name": "Recording Importer",
+2020-03-08 09:40:21,494 INFO                 "arguments": {
+2020-03-08 09:40:21,494 INFO                     "paths": [
+2020-03-08 09:40:21,494 INFO                         "/Users/richard/src/msgr-vesper-archive/Recordings"
+2020-03-08 09:40:21,494 INFO                     ],
+2020-03-08 09:40:21,494 INFO                     "recursive": false,
+2020-03-08 09:40:21,494 INFO                     "recording_file_parser": {
+2020-03-08 09:40:21,494 INFO                         "name": "MPG Ranch Recording File Parser",
+2020-03-08 09:40:21,494 INFO                         "arguments": {
+2020-03-08 09:40:21,494 INFO                             "station_name_aliases_preset": "Station Name Aliases"
+2020-03-08 09:40:21,494 INFO                         }
+2020-03-08 09:40:21,494 INFO                     }
+2020-03-08 09:40:21,494 INFO                 }
+2020-03-08 09:40:21,494 INFO             }
+2020-03-08 09:40:21,494 INFO         }
+2020-03-08 09:40:21,518 INFO     Found 1 new recording and 0 old recordings at the specified paths.
+2020-03-08 09:40:21,518 INFO     The new recordings will be imported.
+2020-03-08 09:40:21,523 INFO     Imported recording MSGR / PC / start 2020-03-04 21:36:23+00:00 / duration 6.874 h with files:
+2020-03-08 09:40:21,523 INFO         MSGR_2020-03-04_21.36.23_Z.wav
+2020-03-08 09:40:21,526 INFO     Job complete.

@@ -1,0 +1,37 @@
+2020-03-09 09:34:19,465 INFO     Job started for command "import" with arguments:
+2020-03-09 09:34:19,466 INFO         {
+2020-03-09 09:34:19,466 INFO             "importer": {
+2020-03-09 09:34:19,466 INFO                 "name": "Archive Data Importer",
+2020-03-09 09:34:19,466 INFO                 "arguments": {
+2020-03-09 09:34:19,466 INFO                     "archive_data": {
+2020-03-09 09:34:19,466 INFO                         "ui_names": {
+2020-03-09 09:34:19,466 INFO                             "annotation_values": {
+2020-03-09 09:34:19,466 INFO                                 "Classification": {
+2020-03-09 09:34:19,466 INFO                                     "-None-": "Unclassified",
+2020-03-09 09:34:19,466 INFO                                     "* | -None-": "* | Unclassified"
+2020-03-09 09:34:19,466 INFO                                 }
+2020-03-09 09:34:19,466 INFO                             }
+2020-03-09 09:34:19,466 INFO                         },
+2020-03-09 09:34:19,466 INFO                         "default_presets": {
+2020-03-09 09:34:19,466 INFO                             "Clip Album Settings": "Resizing Clips, Labels Below",
+2020-03-09 09:34:19,466 INFO                             "Clip Album Commands": "Coarse"
+2020-03-09 09:34:19,466 INFO                         },
+2020-03-09 09:34:19,466 INFO                         "calendar_defaults": {
+2020-03-09 09:34:19,466 INFO                             "station_mic": "MSGR / 21c",
+2020-03-09 09:34:19,466 INFO                             "detector": "Old Bird Tseep Detector Redux 1.1",
+2020-03-09 09:34:19,467 INFO                             "classification": "Call*"
+2020-03-09 09:34:19,467 INFO                         },
+2020-03-09 09:34:19,467 INFO                         "form_defaults": {
+2020-03-09 09:34:19,467 INFO                             "Import Recordings": {
+2020-03-09 09:34:19,467 INFO                                 "Recursive": false
+2020-03-09 09:34:19,467 INFO                             },
+2020-03-09 09:34:19,467 INFO                             "Detect": {
+2020-03-09 09:34:19,467 INFO                                 "Schedule": "Ithaca 2020",
+2020-03-09 09:34:19,467 INFO                                 "Defer clip creation": false
+2020-03-09 09:34:19,467 INFO                             }
+2020-03-09 09:34:19,467 INFO                         }
+2020-03-09 09:34:19,467 INFO                     }
+2020-03-09 09:34:19,467 INFO                 }
+2020-03-09 09:34:19,467 INFO             }
+2020-03-09 09:34:19,467 INFO         }
+2020-03-09 09:34:19,484 INFO     Job complete.

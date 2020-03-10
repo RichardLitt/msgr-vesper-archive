@@ -1,0 +1,18 @@
+2020-03-08 09:40:58,584 INFO     Job started for command "detect" with arguments:
+2020-03-08 09:40:58,585 INFO         {
+2020-03-08 09:40:58,586 INFO             "detectors": [
+2020-03-08 09:40:58,586 INFO                 "Old Bird Tseep Detector Redux 1.1"
+2020-03-08 09:40:58,586 INFO             ],
+2020-03-08 09:40:58,586 INFO             "stations": [
+2020-03-08 09:40:58,586 INFO                 "MSGR"
+2020-03-08 09:40:58,586 INFO             ],
+2020-03-08 09:40:58,586 INFO             "start_date": "2020-01-01",
+2020-03-08 09:40:58,586 INFO             "end_date": "2021-01-01",
+2020-03-08 09:40:58,586 INFO             "schedule": "Ithaca 2019",
+2020-03-08 09:40:58,586 INFO             "defer_clip_creation": false
+2020-03-08 09:40:58,586 INFO         }
+2020-03-08 09:40:58,599 INFO     This command will process recordings for 1 station-night.
+2020-03-08 09:40:58,600 INFO     Processing recordings for station-night 1 of 1 - "MSGR 2020-03-04"...
+2020-03-08 09:40:58,603 INFO         Processing recording 1 of 1 - "MSGR / PC / start 2020-03-04 21:36:23+00:00 / duration 6.874 h"...
+2020-03-08 09:40:58,957 INFO             There are no detection intervals in file "/Users/richard/src/msgr-vesper-archive/Recordings/MSGR_2020-03-04_21.36.23_Z.wav", so no detectors will be run on it.
+2020-03-08 09:40:58,961 INFO     Job complete.
